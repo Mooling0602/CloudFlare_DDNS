@@ -1,0 +1,18 @@
+{
+  "cloudflare": {
+    "auth_type": "token",
+    "auth_email": null,
+    "auth_key": null,
+    "api_token": "your_api_token_here",
+    "zone_name": "your_domain.com"
+  },
+  "dns_records": [
+    {
+      "name": "subdomain.your_domain.com",
+      "type": "A",
+      "ttl": 60,
+      "proxied": false,
+      "ip_version": "v4"
+    }
+  ]
+}
